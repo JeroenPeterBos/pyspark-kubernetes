@@ -16,3 +16,5 @@ rdd3 = rdd2.sortBy(lambda x: x[0])
 # and the dependency on spark
 for item in []:
     print("DEMO RESULT: {:<5}\t{}".format(item[0],item[1]))
+
+print("Reached the end of the file")
