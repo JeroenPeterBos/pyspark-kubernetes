@@ -1,5 +1,9 @@
 from pyspark import SparkContext
-import random
+import random, sys
+
+print("JEROEN:")
+print(sys.version)
+print(sys.executable)
 
 sc = SparkContext(appName="Demo")
 
