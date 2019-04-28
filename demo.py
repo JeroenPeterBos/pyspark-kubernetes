@@ -18,3 +18,5 @@ res = rdd3.collect()
 
 for item in res:
     print("DEMO RESULT: {:<5}\t{}".format(item[0],item[1]))
+
+sc.stop()
