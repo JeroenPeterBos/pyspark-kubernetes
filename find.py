@@ -8,3 +8,8 @@ def find_all(name, path):
     return result
 
 print("FOUND:" + str(find_all("demo.py", "/")))
+
+f = open("file:///home/jeroen/Documents/Leap/boldeagle/examples/demo.py")
+
+print(f.read())
+view raw
