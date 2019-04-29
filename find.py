@@ -7,5 +7,4 @@ def find_all(name, path):
             result.append(os.path.join(root, name))
     return result
 
-print("FOUND:")
-print(find_all("demo.py", "/"))
+print("FOUND:" + str(find_all("demo.py", "/")))
